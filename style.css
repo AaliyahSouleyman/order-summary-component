@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    
+}
+
+main {
+    background-image: url('images/pattern-background-desktop.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+     
+}
+
+
+.order-card {
+    background-color: white;
+    width: min-content;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px; 
+    padding-bottom: 2.5em;
+    
+       
+}
+
+.hero {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding-top: .5em;
+    
+}
+
+.order-info {
+    text-align: center;
+    padding-inline: 3em;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500; 
+    
+}
+
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 1.3em;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.plan {
+    display: flex; 
+    gap: 1em; 
+}
+
+.plan div p {
+    padding: 2px 0;
+}
+
+.plan-type {
+    color:hsl(223, 47%, 23%);
+    font-weight : 900;
+}
+
+
+.plan-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.order-details a {
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button {
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 15px 15px 5px hsl(225, 100%, 94%); 
+}
+
+
+.cancel {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 14px;
+    padding-top: 1em;
+}
